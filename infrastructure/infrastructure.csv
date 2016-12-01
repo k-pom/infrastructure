@@ -1,0 +1,61 @@
+@type,name,text
+engineer.ai,Designer,* *
+engineer.ai,Engineer,[] []
+engineer.ai,Designer,*
+engineer.ai,Engineer,[]
+engineer.ai,Developer,* []
+engineer.ai,Developer,* / []
+engineer.ai,Designer,* *
+engineer.ai,Engineer,[] []
+engineer.ai,Designer,*
+engineer.ai,Engineer,[]
+engineer.ai,Developer,* []
+engineer.ai,Developer,* / []
+engineer.ai,Designer,* *
+engineer.ai,Engineer,[] []
+engineer.ai,Developer,* []
+firewall.ai,Firewall,-2 vs Phishing
+firewall.ai,Firewall,-1 vs Phishing
+antivirus.ai,Anti-virus,-2 vs Malware
+antivirus.ai,Anti-virus,-1 vs Malware
+lb.ai,Load Balancer,-1 vs DDOS
+lb.ai,Load Balancer,-2 vs DDOS
+ids.ai,IDS,Discard: -3 vs any attack
+firewall.ai,Firewall,-2 vs Phishing
+firewall.ai,Firewall,-1 vs Phishing
+antivirus.ai,Anti-virus,-2 vs Malware
+antivirus.ai,Anti-virus,-1 vs Malware
+lb.ai,Load Balancer,-1 vs DDOS
+lb.ai,Load Balancer,-2 vs DDOS
+ids.ai,IDS,Discard: -3 vs any attack
+ids.ai,IDS,Discard: -3 vs any attack
+server.ai,Server,Serves 1 user card,0
+server.ai,Server,[]: Gain +2, 2
+server.ai,Server,*: Gain +2, 2
+server.ai,Server,+1 User, 2
+server.ai,Server,-1 Hacker, 2
+server.ai,Server,[] [] to buy a server, 3
+server.ai,Server,[] [] to buy a countermeasure, 3
+server.ai,Server,[] [] to buy a engineer, 3
+server.ai,Server,[] [] to buy a database, 3
+server.ai,Server,[] for (1), 3
+server.ai,Server,[] [] for (3), 3
+server.ai,Server,4
+server.ai,Server,4
+server.ai,Server,4
+server.ai,Server,5
+database.ai,Database, 1/turn (20)
+database.ai,Database, 1/turn (18)
+database.ai,Database, 1/turn (17)
+database.ai,Database, 1/turn (16)
+database.ai,Database, 2/turn (14)
+database.ai,Database, 2/turn (12)
+database.ai,Database, 2/turn (10)
+database.ai,Database, 2/turn (8)
+database.ai,Database, 3/turn (12)
+database.ai,Database, 3/turn (9)
+database.ai,Database, 3/turn (6)
+database.ai,Database, 3/turn (3)
+database.ai,Database, 4/turn (8)
+database.ai,Database, 4/turn (4)
+database.ai,Database, 5/turn (5)
