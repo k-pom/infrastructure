@@ -29,7 +29,7 @@ lb.ai,Load Balancer,-1 vs DDOS
 lb.ai,Load Balancer,-2 vs DDOS
 ids.ai,IDS,Discard: -3 vs any attack
 ids.ai,IDS,Discard: -3 vs any attack
-server.ai,Server,Serves 1 user card,0
+server.ai,Server,Serves 1 user card
 server.ai,Server,[]: Gain +2, 2
 server.ai,Server,*: Gain +2, 2
 server.ai,Server,+1 User, 2
