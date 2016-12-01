@@ -30,16 +30,16 @@ lb.ai,Load Balancer,-2 vs DDOS
 ids.ai,IDS,Discard: -3 vs any attack
 ids.ai,IDS,Discard: -3 vs any attack
 server.ai,Server,Serves 1 user card
-server.ai,Server,[]: Gain +2, 2
-server.ai,Server,*: Gain +2, 2
-server.ai,Server,+1 User, 2
-server.ai,Server,-1 Hacker, 2
-server.ai,Server,[] [] to buy a server, 3
-server.ai,Server,[] [] to buy a countermeasure, 3
-server.ai,Server,[] [] to buy a engineer, 3
-server.ai,Server,[] [] to buy a database, 3
-server.ai,Server,[] for (1), 3
-server.ai,Server,[] [] for (3), 3
+server.ai,Server,[]: Gain +3
+server.ai,Server,*: Gain +3
+server.ai,Server,+1 User; serves 2
+server.ai,Server,-1 Hacker; serves 2
+server.ai,Server,[] [] to buy a server; serves 3
+server.ai,Server,[] [] to buy a countermeasure; serves 3
+server.ai,Server,[] [] to buy a engineer; serves 3
+server.ai,Server,[] [] to buy a database; serves 3
+server.ai,Server,[] for (1); serves 3
+server.ai,Server,[] [] for (3); serves 3
 server.ai,Server,4
 server.ai,Server,4
 server.ai,Server,4
