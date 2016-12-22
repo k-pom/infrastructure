@@ -1,61 +1,65 @@
-@type,name,text
-engineer.ai,Designer,* *
-engineer.ai,Engineer,[] []
-engineer.ai,Designer,*
-engineer.ai,Engineer,[]
-engineer.ai,Developer,* []
-engineer.ai,Developer,* / []
-engineer.ai,Designer,* *
-engineer.ai,Engineer,[] []
-engineer.ai,Designer,*
-engineer.ai,Engineer,[]
-engineer.ai,Developer,* []
-engineer.ai,Developer,* / []
-engineer.ai,Designer,* *
-engineer.ai,Engineer,[] []
-engineer.ai,Developer,* []
-firewall.ai,Firewall,-2 vs Phishing
-firewall.ai,Firewall,-1 vs Phishing
-antivirus.ai,Anti-virus,-2 vs Malware
-antivirus.ai,Anti-virus,-1 vs Malware
-lb.ai,Load Balancer,-1 vs DDOS
-lb.ai,Load Balancer,-2 vs DDOS
-ids.ai,IDS,Discard: -3 vs any attack
-firewall.ai,Firewall,-2 vs Phishing
-firewall.ai,Firewall,-1 vs Phishing
-antivirus.ai,Anti-virus,-2 vs Malware
-antivirus.ai,Anti-virus,-1 vs Malware
-lb.ai,Load Balancer,-1 vs DDOS
-lb.ai,Load Balancer,-2 vs DDOS
-ids.ai,IDS,Discard: -3 vs any attack
-ids.ai,IDS,Discard: -3 vs any attack
-server.ai,Server,Serves 1 user card
-server.ai,Server,[]: Gain +3
-server.ai,Server,*: Gain +3
-server.ai,Server,+1 User; serves 2
-server.ai,Server,-1 Hacker; serves 2
-server.ai,Server,[] [] to buy a server; serves 3
-server.ai,Server,[] [] to buy a countermeasure; serves 3
-server.ai,Server,[] [] to buy a engineer; serves 3
-server.ai,Server,[] [] to buy a database; serves 3
-server.ai,Server,[] for (1); serves 3
-server.ai,Server,[] [] for (3); serves 3
-server.ai,Server,4
-server.ai,Server,4
-server.ai,Server,4
-server.ai,Server,5
-database.ai,Database, 1/turn (20)
-database.ai,Database, 1/turn (18)
-database.ai,Database, 1/turn (17)
-database.ai,Database, 1/turn (16)
-database.ai,Database, 2/turn (14)
-database.ai,Database, 2/turn (12)
-database.ai,Database, 2/turn (10)
-database.ai,Database, 2/turn (8)
-database.ai,Database, 3/turn (12)
-database.ai,Database, 3/turn (9)
-database.ai,Database, 3/turn (6)
-database.ai,Database, 3/turn (3)
-database.ai,Database, 4/turn (8)
-database.ai,Database, 4/turn (4)
-database.ai,Database, 5/turn (5)
+tech,biz,@type,text,value
+1,1,lb.ai, Load Balancer
+0,1,antivirus.ai, Anti-virus
+0,2,firewall.ai, Firewall
+0,1,lb.ai, Load Balancer
+1,0,antivirus.ai, Anti-virus
+1,2,firewall.ai, Firewall
+0,0,lb.ai, Load Balancer
+0,1,antivirus.ai, Anti-virus
+0,0,firewall.ai, Firewall
+2,1,server.ai, $3, 3
+2,0,server.ai, $3, 1
+2,1,server.ai, $3, 2
+4,0,server.ai, $3, 1
+2,0,server.ai, $0, 1
+4,0,server.ai, $1, 1
+3,0,server.ai, $3, 1
+3,0,server.ai, $3, 1
+4,1,server.ai, $1, 2
+2,0,server.ai, $3, 1
+0,0,server.ai, $0, 1
+3,0,server.ai, $2, 1
+1,0,server.ai, $3, 1
+3,0,server.ai, $3, 1
+3,0,server.ai, $3, 1
+0,0,website.ai, []
+0,2,website.ai, +
+1,4,website.ai, O
+1,2,website.ai, X
+1,3,website.ai, O
+1,1,website.ai, O
+0,1,website.ai, O
+0,0,website.ai, X
+0,2,website.ai, +
+0,1,website.ai, O
+0,0,website.ai, X
+0,2,website.ai, O []
+0,0,website.ai, O X
+0,2,website.ai, [] []
+0,0,website.ai, +
+2, 0, database.ai,4 VPs,3
+0, 0, database.ai,2 VPs,1
+2, 0, database.ai,9 VPs,4
+4, 0, database.ai,5 VPs,4
+0, 1, database.ai,8 VPs,5
+4, 0, database.ai,1 VPs,1
+4, 1, database.ai,3 VPs,3
+0, 0, database.ai,2 VPs,2
+3, 0, database.ai,9 VPs,4
+0, 1, database.ai,4 VPs,4
+4, 0, database.ai,3 VPs,3
+3, 1, database.ai,3 VPs,3
+3, 1, database.ai,4 VPs,4
+3, 1, database.ai,2 VPs,1
+3, 1, database.ai,2 VPs,2
+0, 1, service.ai, [W]: $3
+0, 2, service.ai, Pass cube left
+0, 2, service.ai, Pass cube right
+0, 3, service.ai, VP / Server
+0, 0, service.ai, Gain [W]
+0, 3, service.ai, Salary is -$2
+0, 3, service.ai, +1 employee
+0, 4, service.ai, Once: $10
+0, 1, service.ai, VP / Database
+0, 2, service.ai, VP / Website

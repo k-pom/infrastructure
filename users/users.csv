@@ -1,0 +1,31 @@
+@type,name,scale,data,revenue,symbols
+user.ai,User,5,10,7,[] [] []
+user.ai,User,2,2,6,+ + O []
+user.ai,User,0,1,2,
+user.ai,User,5,10,3,X []
+user.ai,User,1,1,1,
+user.ai,User,6,1,8,X
+user.ai,User,6,12,4,X []
+user.ai,User,1,0,3,X X []
+user.ai,User,5,1,7,O
+user.ai,User,0,2,1,
+user.ai,User,2,5,1,O O X
+user.ai,User,1,1,1,O O
+user.ai,User,1,3,0,+ X []
+user.ai,User,5,3,4,+
+user.ai,User,2,1,1,[]
+user.ai,User,3,5,3,[] []
+user.ai,User,4,1,6,X
+user.ai,User,1,0,4,+ O [] []
+user.ai,User,5,6,7,O O
+user.ai,User,1,3,0,+ O X
+user.ai,User,3,4,1,O
+user.ai,User,3,5,6,O O X
+user.ai,User,0,1,2,
+user.ai,User,2,2,5,O X []
+user.ai,User,1,1,4,O O X X
+user.ai,User,0,0,3,
+user.ai,User,4,2,4,O
+user.ai,User,5,8,7,O X []
+user.ai,User,5,0,5,[]
+user.ai,User,6,1,9,+

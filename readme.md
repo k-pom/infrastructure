@@ -2,63 +2,65 @@
 ### Infrastructure
 
     * Countermeasures protect from attackers
-        - IDS (protects vs everything)
-        - Firewall (protects vs phishing)
-        - Antivirus (protects vs malware)
-        - Load Balancer (protects vs DDOS)
 
-    * Servers - The more users you have, the more users you can support
+    * Servers - The more servers you have, the more users you can support
 
-    * Databases - Databases are where you keep your data (points)
+    * Databases - Databases turn data into (points)
 
-    * Engineers - Increases your resources/reputation
+    * Websites - Users only visit websites that have what they want
+
+    * Services - Give you a specific edge
 
 ### Actors
 
-    * Users - Require server space, result in data (points)
+    * Users - Require server space, result in data and money
 
-    * Attackers - Cause you to lose resources, reputation and points
-
-### Resources
-
-    * [] Resources - how you pay for infrastructure
-
-    * *  Reputation - How many visitors you get each round
-
-    * (x) Data - Points
+    * Employees - Build your infrastructure
 
 ### Setup
 
-Each player receives a player board. Each players places their marker on 3 resources and 1 reputation.
+There's a bag with 32 white cubes and 6 red/blue/yellow cubes for 48 total cubes
 
-Shuffle the infrastructure tiles, users and attackers.
+Each player receives a player board. Each players receives $5 and a CEO employee card
+
+Shuffle the infrastructure tiles, users and employees.
 
 Fill each purchasing space on the board with a infrastructure tile.
 
 ##Each round:
 
-The game is played over 4 rounds. Each turn players will be able to buy up to 
-3 infrastructure tiles before moving to the production phase
+The game is played over 5 rounds. Each turn players will be able to hire employees,
+buy infrastructure tiles, and get users.
 
     Planning
-        - Each player gains +1 Resource and Reputation (+ any engineer bonuses)
+        - Each player draws 3 employee cards and keeps 1.
 
-    Implementation:
-        - Each player gets 3 turns to:
-            - Buy an infrastructure tile, paying Resources costs (1 - 5)
+    Build out:
+        - Starting with the first player
+            - Buy an infrastructure tile
+                - Exhausting employee(s) equal to the tech/business value
+                - Pay $ equal to the position on the track, minus $ of the used employees
             - After a tile is purchased, all tiles slide right one space
             - Any empty spaces on the track are refilled from the top of the deck
-            - A player who can not or does not want to buy a tile may gain +1 resource instead
 
-    Beta:
-        - Each player draws up to attackers equal to their reputation.
-        - Lose resources/data/reputation, modified by any countermeasures you have
+    Launch:
+        - Starting with the website with the highest value, choose a user card to take
+            - You may a total number users with a user value less than / equal to your servers
+            - You must having matching icons on your website to take a user card (can be reused)
+            - After a user is taken, refill from the top of the deck
+        - Pay for any server you have used
 
-    Production:
-        - Each player
-            - Draws a number user cards up to their reputation
-            - Discard user cards until the number of users does not exceed total server value.
-            - Score the bottom number of points on each kept user card.
-            - Each database can only hold a limited number of points
-            - Each database is limited in the number of points is can gain in a single round
-            - scores USER points(DATA), up to DATABASE_SPACE
+    Income:
+        - Gain money from each customer
+        - Draw cubes from the bag equal to the data value on all acquired users
+        - Colored cubes are malicious data. While cubes are good data.
+        - Discard a matching colored cube for each firewall/antivirus/load balancer
+        - Good data can be used in databases or services to score points or active abilities
+
+    Payday
+        - Return all cubes to the bag
+        - Unexhaust each of your employees
+        - Pay each of your employees their salary or discard them
+
+### TODO
+- What does malicious data do? Invalidate a specific type of hardware for a turn? Cost money/employees?
